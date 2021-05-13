@@ -1,5 +1,5 @@
 # java Emp program
-1.This programs includes the real entities of employee in firm.
+1.This programs includes the real entities of employee in firm and based on business logic.
 
 2.created two seprate class one is for main method and another one is for logic/entity.
 
@@ -25,7 +25,7 @@
 	    }
 		
 		
-      -> The return type is void so, it will not return any parameter.
+      -> The return type is void so, we do not need to return any parameter.
    
  6.To display the properties.
       
@@ -62,4 +62,6 @@
 						    break;
 				}
 				
-		   	}while(choice<4
+		   	}while(choice<4)
+ 
+ 11. In case 2 and case 3 we are using condition to indicate the programmer that if user will choose case 1 then execution will go to display method and properties inside the        display method gets executed. And if user will choose any other case then case 1 then display the message record not found...!. If user will choose any other choice except      case1, case2 and case3 then execution will stop and loop will terminate.
