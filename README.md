@@ -11,9 +11,9 @@
 
 5. Creat a method to read the properties
      
-       void create()
-   	{
-             System.out.println("Enter name");
+            void create()
+	    {
+		System.out.println("Enter name");
 		name=sc1.next();
 		System.out.println("Enter Age");
 		age=sc1.nextInt();
@@ -21,7 +21,8 @@
 		salary=sc1.nextDouble();
 		System.out.println("Enter Designation");
 		job=sc1.next();
-	   }
+		
+	    }
 		
 		
       -> The return type is void so, it will not return any parameter.
@@ -43,8 +44,8 @@
   
   10. Break statement:-> When a break statement encountered inside a loop, the loop is immediately terminated and program control resumes at the next statement following the                              loop.
     
-                       do
-			{
+                     
+			do{
 			    System.out.println("1.creat \n 2.display \n 3.Raise Salary \n 4.Exit");
 				choice=sc.nextInt();
 				switch(choice)
