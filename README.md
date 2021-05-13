@@ -1,3 +1,3 @@
 # java Emp program
-created a java program to read name, age, salary and designation using method.
-I used swich case for choice between display,raiseSalary and exit.
+This programs includes the real entities of employee in firm.
+created two seprate class one is for main method and another one is for logic/entity.
