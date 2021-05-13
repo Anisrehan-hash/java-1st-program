@@ -22,6 +22,8 @@
 		  System.out.println("Enter Designation");
 		  job=sc1.next();
 		}
+		
+		
       -> The return type is void so, it will not return any parameter.
    
  6.To display the properties.
